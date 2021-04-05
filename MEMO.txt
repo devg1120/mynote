@@ -1,0 +1,41 @@
+
+-- INSTALL
+
+# python --version
+Python 3.7.3
+
+# pip install sphinx
+
+
+-- INIT
+
+# mkdir mynote
+# cd mynote
+# sphinx-quickstart
+   ...
+   > Separate source and build directories (y/n) [n]: y
+   ...
+   
+   
+-- BASE ENV MODIFY
+
+ make.bat
+
+ Makefaile
+
+ source/conf.py
+
+-- MAKE HTML
+
+# make html
+  ... docs folder output
+  
+# git add -A
+# git commit -m "update"
+# git branch -M main
+# git remote add origin https://github.com/devg1120/mynote.git
+# git push -u origin main
+
+open browser
+ https://devg1120.github.io/mynote/
+ 
