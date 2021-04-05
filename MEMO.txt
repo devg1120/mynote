@@ -9,6 +9,7 @@
  Python 3.7.3
 
  $ pip install sphinx
+ $ pip install sphinx_rtd_theme
 
 
 # INIT
@@ -28,6 +29,11 @@
  Makefaile
 
  source/conf.py
+ 
+   import sphinx_rtd_theme
+   html_theme = 'sphinx_rtd_theme'
+   html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+
 
 # MAKE HTML
 
@@ -119,3 +125,4 @@
 
   https://devg1120.github.io/mynote/
  
+ file:///C:/DOC/mynote/docs/index.html
