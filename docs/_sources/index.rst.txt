@@ -1,23 +1,18 @@
-.. mynote documentation master file, created by
-   sphinx-quickstart on Mon Apr  5 13:03:12 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Sphinx sample project
+========================================
 
-Welcome to mynote's documentation!
-==================================
+このドキュメントは、ドキュメント生成ツールSphinxのサンプルです。
+
+* 詳しくは以下のQiita記事やGithubレポジトリを参照して下さい
+   * `Qiita: Sphinx & reStructuredText入門 <https://qiita.com/sakaeda11/items/29b96daa58498656e9b5>`_
+   * `Github: sakaeda11/sphinx-study <https://github.com/sakaeda11/sphinx-study>`_
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目次
 
-   hello
-   hierarchy
-   code
-   other
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   1.chapter/basic_syntax
+   1.chapter/roles
+   2.chapter/directive
+   3.chapter/others
+   
