@@ -25,8 +25,12 @@
 # BASE ENV FILE & SCRIPT MODIFY
 
  make.bat
+     |set SOURCEDIR=source
+     |set BUILDDIR=docs
 
  Makefaile
+     |SOURCEDIR     = source
+     |BUILDDIR      = docs
 
  source/conf.py
  
